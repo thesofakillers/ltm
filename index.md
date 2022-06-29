@@ -16,6 +16,8 @@ performance in the original task does not drop upon learning a new task\*\*.
 This underlines the clear necessity of LT memory-like mechanisms for continual
 learning, which is undeniably present in biological agents.
 
+**[link to our poster](/assets/poster.pdf)**
+
 ## Tasks Considered
 
 We analyse the performance of our model with and without the LTM mechanism on
