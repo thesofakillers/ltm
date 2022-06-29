@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Using Biologically Plausible Long-Term Memory to Address Catastrophic Forgetting in AI, | Bommer, S., Troquay, E. P. M., Zhang, X. &amp; Starace, G. ABC Summer School 2022</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Using Biologically Plausible Long-Term Memory to Address Catastrophic Forgetting in AI," />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Bommer, S., Troquay, E. P. M., Zhang, X. &amp; Starace, G. ABC Summer School 2022" />
+<meta property="og:description" content="Bommer, S., Troquay, E. P. M., Zhang, X. &amp; Starace, G. ABC Summer School 2022" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Using Biologically Plausible Long-Term Memory to Address Catastrophic Forgetting in AI," />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Using Biologically Plausible Long-Term Memory to Address Catastrophic Forgetting in AI," />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Bommer, S., Troquay, E. P. M., Zhang, X. &amp; Starace, G. ABC Summer School 2022","headline":"Using Biologically Plausible Long-Term Memory to Address Catastrophic Forgetting in AI,","name":"Using Biologically Plausible Long-Term Memory to Address Catastrophic Forgetting in AI,","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"}},"url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=98cd8a43c8c24e16f73c1686328e7ba268d6743f">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <link
+  rel="shortcut icon"
+  type="image/x-icon"
+  href="/favicon.ico"
+/>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">Using Biologically Plausible Long-Term Memory to Address Catastrophic Forgetting in AI,</a></h1>
+
+        
+          <img src="/assets/img/logo.png" alt="Logo" />
+        
+
+        <p>Bommer, S., Troquay, E. P. M., Zhang, X. & Starace, G. | ABC Summer School 2022</p>
+
+        
+        <p class="view"><a href="https://github.com/thesofakillers/ltm">View the Project on GitHub <small>thesofakillers/ltm</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <p><strong>Memory</strong> is arguably an essential ingredient of general intelligence. The
+Atkinson–Shiffrin memory model [1], categorizes memory into “working” and
+“long-term” memory frameworks, besides an initial sensory register. <strong>Working
+memory</strong> (WM) acts as a temporary and limited store of information to be used in
+cognitive tasks that can be addressed with a small amount of steps. <strong>Long-term
+memory</strong> (LTM) instead acts as a more permanent storage of information
+previously “rehearsed”. We hypothesize that integrating some LTM mechanism
+should address the issue of <strong>catastrophic forgetting</strong> commonly faced by
+computational models capable of working memory. This is the phenomenon in which
+the <strong>performance on previously learned tasks is compromised upon learning a new
+task</strong>. We extend the biologically plausible working memory model AuGMEnT [2] by
+integrating a LTM repetition-based thresholding mechanism. We analyse the
+performance of our model with and without the LTM mechanism on two tasks learned
+model performance differ from the non-LTM-enabled model in that their
+performance in the original task does not drop upon learning a new task**.
+This underlines the clear necessity of LT memory-like mechanisms for continual
+learning, which is undeniably present in biological agents.</p>
+
+<h2 id="tasks-considered">Tasks Considered</h2>
+
+<p>We analyse the performance of our model with and without the LTM mechanism on
+two tasks learned sequentially. We also compare to the performance of monkeys as
+a measure of biological plausibility.</p>
+
+<ol>
+  <li>The first task is a saccade/anti-saccade task. In this task, agents first see
+a blank screen, then a fixation mark appear, indicating whether it’s a anti
+or pro saccade. Then another cue appear on left or right, determine whether
+it’s a right or left saccade. Agents need to respond with correct saccade
+direction.</li>
+  <li>The second task is a delayed match-to-category task. Agents first see a
+fixation mark, followed by the cue 1, then another fixation mark. After, cue
+2 appears, and agents need to decide whether cue 2 matches cue 1 by
+indicating with a left or right saccade.</li>
+</ol>
+
+<h2 id="references">References</h2>
+
+<p>[1] R. C. Atkinson and R. M. Shiffrin, ‘Human Memory: A Proposed System and its
+Control Processes’, vol. 2, K. W. Spence and J. T. Spence, Eds. Academic Press,
+1968, pp. 89–195. doi: https://doi.org/10.1016/S0079-7421(08)60422-3.</p>
+
+<p>[2] J. O. Rombouts, S. M. Bohte, and P. R. Roelfsema, ‘How Attention Can Create
+Synaptic Tags for the Learning of Working Memories in Sequential Tasks’, PLOS
+Computational Biology, vol. 11, no. 3, p. e1004060, Mar. 2015, doi:
+10.1371/journal.pcbi.1004060.</p>
+
+<p>[3] J. Gottlieb and M. E. Goldberg, ‘Activity of neurons in the lateral
+intraparietal area of the monkey during an antisaccade task’, Nat Neurosci, vol.
+2, no. 10, pp. 906–912, Oct. 1999, doi: 10.1038/13209.</p>
+
+<p>[4] D. J. Freedman and J. A. Assad, ‘Experience-dependent representation of
+visual categories in parietal cortex’, Nature, vol. 443, no. 7107, Art. no.
+7107, Sep. 2006, doi: 10.1038/nature05078.</p>
+
+<p>[5] N. Cowan, ‘What are the differences between long-term, short-term, and
+working memory?’, Prog Brain Res, vol. 169, pp. 323–338, 2008, doi:
+10.1016/S0079-6123(07)00020-9.</p>
+
+<p>[6] L. Himmer, M. Schönauer, D. P. J. Heib, M. Schabus, and S. Gais, ‘Rehearsal
+initiates systems memory consolidation, sleep makes it last’, Science Advances,
+vol. 5, no. 4, p. eaav1695, Apr. 2019, doi: 10.1126/sciadv.aav1695.</p>
+
+<h2 id="contact">Contact</h2>
+
+<ul>
+  <li><strong>Steven Bommer</strong>: steven DOT bommer AT student DOT uva DOT nl</li>
+  <li><strong>Eline Troquay</strong>: eline DOT troquay AT projectmarch DOT nl</li>
+  <li><strong>Xinyao Zhang</strong>: xinyao DOT Zhang AT student DOT uva DOT nl</li>
+  <li><strong>Giulio Starace</strong>: giulio DOT starace AT student DOT uva DOT nl</li>
+</ul>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/thesofakillers">thesofakillers</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>
