@@ -61,7 +61,7 @@ vol. 5, no. 4, p. eaav1695, Apr. 2019, doi: 10.1126/sciadv.aav1695.
 
 ## Contact
 
-- Steven Bommer: steven DOT bommer AT student DOT uva DOT nl
-- Eline Troquay: eline DOT troquay AT projectmarch DOT nl
-- Xinyao Zhang: xinyao DOT Zhang AT student DOT uva DOT nl
-- Giulio Starace: giulio DOT starace AT student DOT uva DOT nl
+- **Steven Bommer**: steven DOT bommer AT student DOT uva DOT nl
+- **Eline Troquay**: eline DOT troquay AT projectmarch DOT nl
+- **Xinyao Zhang**: xinyao DOT Zhang AT student DOT uva DOT nl
+- **Giulio Starace**: giulio DOT starace AT student DOT uva DOT nl
