@@ -10,9 +10,9 @@ computational models capable of working memory. This is the phenomenon in which
 the **performance on previously learned tasks is compromised upon learning a new
 task**. We extend the biologically plausible working memory model AuGMEnT [2] by
 integrating a LTM repetition-based thresholding mechanism. We analyse the
-performance of our model with and without the LTM mechanism on two tasks learned
-model performance differ from the non-LTM-enabled model in that their
-performance in the original task does not drop upon learning a new task\*\*.
+performance of our model with and without the LTM mechanism on two tasks learned sequentially. 
+We expect to find that the monkeys and LTM-enabled model performance differ from the 
+non-LTM-enabled model in that their **performance in the original task does not drop upon learning a new task**.
 This underlines the clear necessity of LT memory-like mechanisms for continual
 learning, which is undeniably present in biological agents.
 
